@@ -4,6 +4,9 @@ version = "0.1.0"
 description = ""
 authors = ["Matthew Clapp <itsayellow+dev@gmail.com>"]
 
+[tool.poetry.scripts]
+delay-demo2="delay_demo2.main:cli"
+
 [tool.poetry.dependencies]
 python = "^3.8"
 
