@@ -1,0 +1,16 @@
+ 3416  poetry new delay-demo2
+ 3418  cd delay-demo2
+ 3423  gh repo create delay-demo2
+    Answer "no" to third question:
+        ? Create a local project directory for itsayellow/delay-demo2? No
+    Example command input/output:
+    ? Visibility Public
+    ? This will create 'delay-demo2' in your current directory. Continue?  Yes
+    ✓ Created repository itsayellow/delay-demo2 on GitHub
+    ? Create a local project directory for itsayellow/delay-demo2? No
+ 3427  git init
+ 3428  git add .
+ 3429  git commit -m 'Initial poetry new project.'
+ 3430  git remote add origin git@github.com:itsayellow/delay-demo2.git
+ 3431  git remote -v
+ 3433  git push -u origin master
